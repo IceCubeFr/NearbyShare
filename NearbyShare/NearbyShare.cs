@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Specialized;
 using Life;
 using Life.DB;
 using Life.Network;
@@ -22,16 +23,26 @@ namespace NearbyShare
 
         public DateTime cooldown = DateTime.Now;
 
+        public ListDictionary listeCooldown = new ListDictionary();
+
         public bool TestCooldown(DateTime tempsActuel, Player player)
         {
-            if (tempsActuel.Ticks-cooldown.Ticks > TimeSpan.FromSeconds(10).Ticks)
+            if (listeCooldown.Contains(player.netId))
             {
-                cooldown = DateTime.Now;
-                return true;
+                if (tempsActuel.Ticks - (long)listeCooldown[player.netId] > TimeSpan.FromSeconds(10).Ticks)
+                {
+                    listeCooldown[player.netId] = tempsActuel.Ticks;
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
             else
             {
-                return false;
+                listeCooldown.Add(player.netId, tempsActuel.Ticks);
+                return true;
             }
         }
 
