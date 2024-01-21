@@ -60,6 +60,25 @@ namespace NearbyShare
                 case "à":
                 case "0":
                     return KeyCode.Alpha0;
+                case "^":
+                    return KeyCode.RightBracket;
+                case ")":
+                    return KeyCode.LeftBracket;
+                case "=":
+                    return KeyCode.Equals;
+                case "$":
+                    return KeyCode.Semicolon;
+                case "ù":
+                case "!":
+                    return KeyCode.BackQuote;
+                case "*":
+                    return KeyCode.Backslash;
+                case ",":
+                    return KeyCode.Comma;
+                case ";":
+                    return KeyCode.Period;
+                case ":":
+                    return KeyCode.Slash;
                 default:
                     return KeyCode.Alpha7;
             }

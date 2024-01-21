@@ -67,4 +67,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /Y "$(TargetDir)NearbyShare.dll" "C:\Program Files (x86)\Steam\steamapps\common\Nova-Life\Servers\Tests map vierge\Plugins"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
