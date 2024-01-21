@@ -27,4 +27,4 @@ Le partage de numéro de téléphone n'a jamais été aussi simple
 
 # ✧ Conditions d'utilisation du plugin
 
-Vous pouvez utiliser librement le plugin sur votre serveur privé comme sur votre serveur public ! Bon jeu !
+Vous pouvez utiliser librement le plugin sur votre serveur privé comme sur votre serveur public ! Vous pouvez le décompiler pour regarder le code et vous en inspirer ! Néanmoins l'appropriation ou la copie restent interdits. 
