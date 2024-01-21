@@ -9,7 +9,7 @@ Le partage de numéro de téléphone n'a jamais été aussi simple
 
 **Commandes :** 
 - /nstouche : Désactiver la touche de base afin d'utiliser MyMenu uniquement (Admin only)
-- /nstouche <touche> : Modifier la touche de base d'activation et réactiver cette dernière (Admin only)
+- /nstouche {touche} : Modifier la touche de base d'activation et réactiver cette dernière (Admin only)
 
 **Touche :** 
 - Alpha7 (è) _(Par défaut - Modifiable)_
