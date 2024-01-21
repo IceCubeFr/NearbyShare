@@ -15,7 +15,7 @@ Le partage de numéro de téléphone n'a jamais été aussi simple
 - Alpha7 (è) _(Par défaut - Modifiable)_
 - MyMenu
 
-**NE MODIFIEZ A AUCUN MOMENT LE FICHIER JSON !!**
+**NE MODIFIEZ A AUCUN MOMENT LE FICHIER JSON !! Vous devrez réinstaller le plugin si vous modifiez quoi que ce soit**
 
 ## ✧ Fonctionnalités
 * Partager votre numéro de téléphone à la personne la plus proche
