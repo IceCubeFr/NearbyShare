@@ -5,7 +5,7 @@ Le partage de numéro de téléphone n'a jamais été aussi simple
 
 **Dépendances :** MyMenu et ses dépendances (NearbyShare v1.2+)
 
-**Pré-Requis :** âtre admin pour effectuer les commandes, aucun pour partager son numéro
+**Pré-Requis :** être admin pour effectuer les commandes, aucun pour partager son numéro
 
 **Commandes :** 
 - /nstouche : Désactiver la touche de base afin d'utiliser MyMenu uniquement (Admin only)
