@@ -31,14 +31,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp">
+    <Reference Include="AAMenu">
+      <HintPath>..\..\..\..\Documents\.. Dependances plugin nova\AAMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Nova-Life\Nova-Life_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Mirror">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Nova-Life\Nova-Life_Data\Managed\Mirror.dll</HintPath>
     </Reference>
-    <Reference Include="MyMenu">
-      <HintPath>..\..\..\..\Documents\.. Dependances plugin nova\MyMenu.dll</HintPath>
+    <Reference Include="ModKit">
+      <HintPath>..\..\..\..\Documents\.. Dependances plugin nova\ModKit.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -52,9 +56,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="UIPanelManager">
-      <HintPath>..\..\..\..\Documents\.. Dependances plugin nova\UIPanelManager.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Services.Core">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Nova-Life\Nova-Life_Data\Managed\Unity.Services.Core.dll</HintPath>
     </Reference>
@@ -63,7 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Changer nom de contact\main.cs" />
+    <Compile Include="NearbyShareold.cs" />
     <Compile Include="NearbyShare.cs" />
+    <Compile Include="Partage de contact\main.cs" />
+    <Compile Include="Partage de proximité\main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
