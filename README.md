@@ -20,4 +20,4 @@ A partir du menu Aamenu, dans l'onglet Interaction, vous pouvez ouvrir votre té
 
 # ✧ Conditions d'utilisation du plugin
 
-Vous pouvez utiliser librement le plugin sur votre serveur privé comme sur votre serveur public ! Vous pouvez le décompiler pour regarder le code et vous en inspirer ! Néanmoins l'appropriation ou la copie restent interdits.
+Vous pouvez utiliser librement le plugin sur votre serveur privé comme sur votre serveur public ! Vous pouvez regarder le code et vous en inspirer ! Néanmoins l'appropriation ou la copie restent interdits.
