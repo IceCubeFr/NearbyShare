@@ -1,4 +1,4 @@
-![GitHub all releases](https://img.shields.io/github/downloads/IceCubeFr/NearbyShare/total?label=downloads)
+![GitHub all releases](https://img.shields.io/github/downloads/IceCubeFr/NearbyShare/total?style=plastic&label=Downloads&color=gold)
 # ✧ NearbyShare
 ![Bannière de NearbyShare](https://i.ibb.co/mFgYKgg/a-banner-with-the-text-nearbyshare-and-two-smartph-xo-HCZCZTUq-Dez0-KSc-AQSQ-Ws-MQ8-5-TRT-14-Sqc-Dc.jpg)
 
