@@ -16,7 +16,8 @@ Le partage de numéro de téléphone n'a jamais été aussi simple
 ## ✧ Fonctionnement
 A partir du menu Aamenu, dans l'onglet Interaction, vous pouvez ouvrir votre téléphone virtuel pour accéder au menu principal. Vous y trouverez le partage de numéro et la gestion de vos contacts.
 
-[Rejoignez le discord MOD ici](https://discord.gg/8j2suEE9Mf) et signalez-y tout bug que vous rencontrerez (svp)
+[Rejoignez le discord MOD ici](https://discord.gg/8j2suEE9Mf)  
+Signalez les bugs et proposez vos idées dans l'onglet [Issues](https://github.com/IceCubeFr/NearbyShare/issues)
 
 # ✧ Conditions d'utilisation du plugin
 
