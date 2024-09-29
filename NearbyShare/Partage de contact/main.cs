@@ -1,20 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using ModKit.Helper;
-using ModKit.Internal;
-using ModKit.Interfaces;
 using Life;
-using _menu = AAMenu.Menu;
 using Life.Network;
-using System.Collections.Specialized;
-using NearbyShare;
-using NearbyShare.Changer_nom_de_contact;
 using Life.DB;
-using System.Threading;
-using UnityEngine;
 
 namespace NearbyShare.Partage_de_contact
 {

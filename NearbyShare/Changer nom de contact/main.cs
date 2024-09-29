@@ -1,21 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ModKit.Helper;
-using ModKit.Internal;
-using ModKit.Interfaces;
+﻿using ModKit.Helper;
 using Life;
-using _menu = AAMenu.Menu;
 using Life.Network;
-using System.Collections.Specialized;
-using NearbyShare;
-using NearbyShare.Changer_nom_de_contact;
 using Life.DB;
-using System.Threading;
 using NearbyShare.Partage_de_contact;
-using UnityEngine;
 
 
 namespace NearbyShare.Changer_nom_de_contact
@@ -24,27 +11,13 @@ namespace NearbyShare.Changer_nom_de_contact
     {
         public management(IGameAPI api) : base(api) { }
 
-        public async void ContactList(Player player)
-        {
-            // Affiche un menu de la liste des contacts
-            ContactsList contactsList = await LifeDB.FetchContacts(player.character.Id);
-            Panel menu = PanelHelper.Create("Liste des contacts", Life.UI.UIPanel.PanelType.TabPrice, player, () => ContactList(player));
-            foreach (Contact contact in contactsList.contacts)
-            {
-                menu.AddTabLine(contact.name, contact.number, 101, ui => Selection(player, contact));
-            }
-            menu.PreviousButton();
-            menu.CloseButton();
-            menu.AddButton("Sélectionner", ui => menu.SelectTab());
-            menu.Display();
-        }
-
         public void Selection(Player player, Contact contact)
         {
             contact partage = new contact(api);
-            Panel menu = PanelHelper.Create("Informations", Life.UI.UIPanel.PanelType.Text, player, () => ContactList(player));
+            NearbyShare mainMenu = new NearbyShare(api);
+            Panel menu = PanelHelper.Create("Informations", Life.UI.UIPanel.PanelType.Text, player, () => Selection(player, contact));
 
-            menu.PreviousButton();
+            menu.AddButton("Retour", ui => mainMenu.MainMenu(player));
             menu.AddButton("Renommer", ui => AskName(player, contact));
             menu.AddButton("<color=#FF0000>Supprimer", ui => DeleteConfirmation(player, contact));
             menu.AddButton("<color=#48c9b0>Partager", ui => partage.PreDemande(player, contact));
@@ -71,9 +44,10 @@ namespace NearbyShare.Changer_nom_de_contact
 
         public async void DeleteContact(Player player, Contact contact)
         {
+            NearbyShare mainmenu = new NearbyShare(api);
             await LifeDB.DeleteContact(contact.id);
             Panel menu = PanelHelper.Create("Contact supprimé", Life.UI.UIPanel.PanelType.Text, player, () => DeleteContact(player, contact));
-            menu.CloseButton();
+            menu.AddButton("Retour", ui => mainmenu.MainMenu(player));
             menu.TextLines.Add("Le contact a été supprimé avec succès.");
             menu.Display();
         }
@@ -91,10 +65,12 @@ namespace NearbyShare.Changer_nom_de_contact
 
         public async void EditName(Player player, Contact contact, string name)
         {
+            NearbyShare mainmenu = new NearbyShare(api);
             string number = contact.number;
             await LifeDB.DeleteContact(contact.id);
             await LifeDB.CreateContact(player.character.Id, number, name);
             player.Notify("NearbyShare", "Contact renommé avec succès", NotificationManager.Type.Success);
+            mainmenu.MainMenu(player);
         }
     }
 }

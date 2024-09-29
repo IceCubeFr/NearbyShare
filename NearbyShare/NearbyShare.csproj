@@ -65,7 +65,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Changer nom de contact\main.cs" />
-    <Compile Include="NearbyShareold.cs" />
     <Compile Include="NearbyShare.cs" />
     <Compile Include="Partage de contact\main.cs" />
     <Compile Include="Partage de proximité\main.cs" />
