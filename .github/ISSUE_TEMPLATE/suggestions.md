@@ -2,8 +2,8 @@
 name: Suggestions
 about: Proposez un axe d'amélioration du plugin
 title: 'SUGGEST - '
-labels: documentation
-assignees: ''
+labels: ''
+assignees: IceCubeFr
 
 ---
 

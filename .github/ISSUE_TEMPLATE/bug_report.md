@@ -2,8 +2,8 @@
 name: Bug report
 about: Reportez des bugs présents sur le plugins
 title: 'BUG - '
-labels: bug
-assignees: ''
+labels: ''
+assignees: IceCubeFr
 
 ---
 
