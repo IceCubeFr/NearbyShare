@@ -1,4 +1,14 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/IceCubeFr/NearbyShare/total?style=plastic&label=Downloads&color=gold)
+## Message du dev
+### Fin du développement de NearbyShare
+Hello hello  
+Je décide d'arrêter les mises à jour concernant mon plugin NearbyShare.  
+Il n'est plus compatible avec la nouvelle version NovaLife et je ne le mettrai pas à jour. Avec les dernières mises à jour et mon évolution personnelle, j'ai ni le temps, ni l'envie de réadapter le plugin aux nouvelles méthodes.  
+Le code étant open-source, libre à vous de le recréer, l'améliorer ou juste de le corriger  
+Bonne journée  
+
+----------------------------------------------------------------------------------------------------------------
+
 # ✧ NearbyShare
 ![Bannière de NearbyShare](https://i.ibb.co/mFgYKgg/a-banner-with-the-text-nearbyshare-and-two-smartph-xo-HCZCZTUq-Dez0-KSc-AQSQ-Ws-MQ8-5-TRT-14-Sqc-Dc.jpg)
 
