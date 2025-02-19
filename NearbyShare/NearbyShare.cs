@@ -16,7 +16,7 @@ namespace NearbyShare
         
         public NearbyShare(IGameAPI api) : base(api)
         {
-            PluginInformations = new PluginInformations(AssemblyHelper.GetName(), "2.0.1", "IceCubeFr");
+            PluginInformations = new PluginInformations(AssemblyHelper.GetName(), "2.0.2", "IceCubeFr");
         }
 
         public override void OnPluginInit()
