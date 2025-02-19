@@ -1,11 +1,10 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/IceCubeFr/NearbyShare/total?style=plastic&label=Downloads&color=gold)
 ## Message du dev
-### Fin du développement de NearbyShare
+### NearbyShare est actuellement obsolète
 Hello hello  
-Je décide d'arrêter les mises à jour concernant mon plugin NearbyShare.  
-Il n'est plus compatible avec la nouvelle version NovaLife et je ne le mettrai pas à jour. Avec les dernières mises à jour et mon évolution personnelle, j'ai ni le temps, ni l'envie de réadapter le plugin aux nouvelles méthodes.  
-Le code étant open-source, libre à vous de le recréer, l'améliorer ou juste de le corriger  
-Bonne journée  
+Suite à la dernière MAJ Nova, le plugin est actuellement obsolète.  
+Je me charge de le mettre à jour pour qu'il soit de nouveau 100% fonctionnel dans les meilleurs délais  
+Merci pour votre confiance
 
 ----------------------------------------------------------------------------------------------------------------
 
