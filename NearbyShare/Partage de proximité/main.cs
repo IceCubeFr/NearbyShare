@@ -33,24 +33,24 @@ namespace NearbyShare.Partage_de_proximite
                 (bool, string) testContactClose = await HaveContact(closePlayer, player);
                 if (testContact.Item1 && testContactClose.Item1)
                 {
-                    player.Notify("NearbyShare", $"{closePlayer.GetFullName()} vous a déjà dans ses contacts et vous l'avez également dans les votres.", NotificationManager.Type.Error);
+                    player.Notify("NearbyShare", $"{closePlayer.FullName} vous a déjà dans ses contacts et vous l'avez également dans les votres.", NotificationManager.Type.Error);
                     isLocked = true;
                 }
                 else if (testContact.Item1)
                 {
-                    menu.TextLines.Add($"{closePlayer.GetFullName()} est déjà dans vos contacts.");
+                    menu.TextLines.Add($"{closePlayer.FullName} est déjà dans vos contacts.");
                     menu.TextLines.Add("Souhaitez-vous partager votre numéro ?");
                     askerHasContact = true;
                 }
                 else if (testContactClose.Item1)
                 {
-                    menu.TextLines.Add($"{closePlayer.GetFullName()} a déjà votre numéro dans ses contacts.");
+                    menu.TextLines.Add($"{closePlayer.FullName} a déjà votre numéro dans ses contacts.");
                     menu.TextLines.Add("Souhaitez-vous demander le sien ?");
                     receiverHasContact = true;
                 }
                 else
                 {
-                    menu.TextLines.Add($"Voulez-vous donner votre numéro et recevoir celui de {closePlayer.GetFullName()} ?");
+                    menu.TextLines.Add($"Voulez-vous donner votre numéro et recevoir celui de {closePlayer.FullName} ?");
                 }
                 menu.AddButton("Valider", ui =>
                 {
@@ -71,16 +71,16 @@ namespace NearbyShare.Partage_de_proximite
 
             if (receiverHasContact)
             {
-                menu.TextLines.Add(player.GetFullName() + " souhaite récupérer votre numéro. Acceptez-vous ?");
+                menu.TextLines.Add(player.FullName + " souhaite récupérer votre numéro. Acceptez-vous ?");
             }
             else if (askerHasContact)
             {
-                menu.TextLines.Add(player.GetFullName() + " souhaite partager son numéro mais il vous a déjà dans vos contacts.");
+                menu.TextLines.Add(player.FullName + " souhaite partager son numéro mais il vous a déjà dans vos contacts.");
                 menu.TextLines.Add("Voulez-vous recevoir ce numéro ?");
             }
             else
             {
-                menu.TextLines.Add(player.GetFullName() + " souhaite vous partager son numéro et prendre le votre. Acceptez-vous ?");
+                menu.TextLines.Add(player.FullName + " souhaite vous partager son numéro et prendre le votre. Acceptez-vous ?");
             }
 
             menu.AddButton("Valider", ui =>
@@ -120,13 +120,13 @@ namespace NearbyShare.Partage_de_proximite
         {
             if (!askerHasContact)
             {
-                AjoutContact(player, closePlayer.character.PhoneNumber, closePlayer.GetFullName());
+                AjoutContact(player, closePlayer.character.PhoneNumber, closePlayer.FullName);
                 player.Notify("NearbyShare", "Personne ajoutée à vos contacts", NotificationManager.Type.Success);
                 closePlayer.Notify("NearbyShare", "Tranfert du numéro effectué");
             }
             if (!receiverHasContact)
             {
-                AjoutContact(closePlayer, player.character.PhoneNumber, player.GetFullName());
+                AjoutContact(closePlayer, player.character.PhoneNumber, player.FullName);
                 closePlayer.Notify("NearbyShare", "Personne ajoutée à vos contacts", NotificationManager.Type.Success);
                 player.Notify("NearbyShare", "Tranfert du numéro effectué");
             }

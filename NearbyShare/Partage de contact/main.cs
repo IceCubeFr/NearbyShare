@@ -50,7 +50,7 @@ namespace NearbyShare.Partage_de_contact
                     player.ClosePanel(menu);
                     Demande(player, contact);
                 });
-                menu.TextLines.Add($"Êtes-vous sur de vouloir partager le contact de {contact.name} à {closePlayer.GetFullName()} ?");
+                menu.TextLines.Add($"Êtes-vous sur de vouloir partager le contact de {contact.name} à {closePlayer.FullName} ?");
                 menu.Display();
 
             }
@@ -67,7 +67,7 @@ namespace NearbyShare.Partage_de_contact
                 Partage(player, contact);
             });
             menu.SetTitle("Nouvelle Demande");
-            menu.TextLines.Add($"{player.GetFullName()} souhaite vous partager un de ses contacts. Acceptez-vous ?");
+            menu.TextLines.Add($"{player.FullName} souhaite vous partager un de ses contacts. Acceptez-vous ?");
             menu.Display();
         }
 
