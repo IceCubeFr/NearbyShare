@@ -1,4 +1,13 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/IceCubeFr/NearbyShare/total?style=plastic&label=Downloads&color=gold)
+## Message du dev
+### NearbyShare est actuellement obsolète
+Hello hello  
+Suite à la dernière MAJ Nova, le plugin est actuellement obsolète.  
+Je me charge de le mettre à jour pour qu'il soit de nouveau 100% fonctionnel dans les meilleurs délais  
+Merci pour votre confiance
+
+----------------------------------------------------------------------------------------------------------------
+
 # ✧ NearbyShare
 ![Bannière de NearbyShare](https://i.ibb.co/mFgYKgg/a-banner-with-the-text-nearbyshare-and-two-smartph-xo-HCZCZTUq-Dez0-KSc-AQSQ-Ws-MQ8-5-TRT-14-Sqc-Dc.jpg)
 
