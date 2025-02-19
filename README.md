@@ -1,10 +1,12 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/IceCubeFr/NearbyShare/total?style=plastic&label=Downloads&color=gold)
 ## Message du dev
-### NearbyShare est actuellement obsolète
+### NearbyShare est open-source
 Hello hello  
-Suite à la dernière MAJ Nova, le plugin est actuellement obsolète.  
-Je me charge de le mettre à jour pour qu'il soit de nouveau 100% fonctionnel dans les meilleurs délais  
-Merci pour votre confiance
+Si vous avez un peu de temps à perdre, vous pouvez récupérer le projet pour l'améliorer  
+Je ne ferai plus de mises à jour pour ajouter du contenu, mais s'il y a une mise à jour NovaLife, j'essaierai quand même de le rendre fonctionnel.  
+(J'ai allégé les conditions d'utilisations de ce fait)  
+D'ailleurs je reste inactif sur NovaLife:Amboise  
+Bon jeu à tous
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -30,4 +32,4 @@ Signalez les bugs et proposez vos idées dans l'onglet [Issues](https://github.c
 
 # ✧ Conditions d'utilisation du plugin
 
-Vous pouvez utiliser librement le plugin sur votre serveur privé comme sur votre serveur public ! Vous pouvez regarder le code et vous en inspirer ! Néanmoins l'appropriation ou la copie restent interdits.
+Le plugin est à vous, faites en ce que vous voulez
