@@ -1,4 +1,4 @@
-![GitHub all releases](https://img.shields.io/github/downloads/IceCubeFr/NearbyShare/total?style=plastic&label=Downloads&color=gold)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/IceCubeFr/NearbyShare/total?style=for-the-badge&labelColor=T%C3%A9l%C3%A9chargements&link=https%3A%2F%2Fgithub.com%2FIceCubeFr%2FNearbyShare) ![Static Badge](https://img.shields.io/badge/build-clique_sur_moi-brightgreen?style=for-the-badge&label=Discord%20de%20MOD&labelColor=grey&color=blue&link=https%3A%2F%2Fdiscord.gg%2F2cS2eVY485)
 ## Message du dev
 ### NearbyShare est open-source
 Hello hello  
