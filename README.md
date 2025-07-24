@@ -6,7 +6,8 @@ Si vous avez un peu de temps à perdre, vous pouvez récupérer le projet pour l
 Je ne ferai plus de mises à jour pour ajouter du contenu, mais s'il y a une mise à jour NovaLife, j'essaierai quand même de le rendre fonctionnel.  
 (J'ai allégé les conditions d'utilisations de ce fait)  
 D'ailleurs je reste inactif sur NovaLife:Amboise  
-Bon jeu à tous
+Bon jeu à tous  
+_Update 1.65 : Le plugin semble fonctionner. Aucun test en profondeur n'a été effectué par manque de moyens. Si vous trouvez un bug, merci d'ouvrir une [Issues](https://github.com/IceCubeFr/NearbyShare/issues)_
 
 ----------------------------------------------------------------------------------------------------------------
 
